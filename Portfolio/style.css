@@ -32,12 +32,26 @@ hr{
     padding: 0.5rem 1rem;
 }
 .link-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin:auto;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:black
 }
 
+.link-position{
+    justify-content: center;
+}
+
 .link-secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin:auto;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -127,6 +141,18 @@ hr{
     background-color: var(--off-white);
 }
 
+.languages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .container-blog{
     padding: 2px 16px;
     margin: auto;
@@ -157,4 +183,7 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.icon-link{
+    text-decoration: none;
 }
