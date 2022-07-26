@@ -187,3 +187,99 @@ hr{
 .icon-link{
     text-decoration: none;
 }
+.icon-cred{
+    margin-left: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+/** Media Query **/
+@media only screen and (max-width: 490px){
+    .hero .hero-img{
+        max-width: 300px;
+        display: block;
+        margin:auto;
+    }
+    .hero .hero-heading{
+        font-size: large;
+    }
+    .hero .hero-heading .decor{
+        font-size: large;
+    }
+    .section-heading{
+        font-size: 16px;
+    }
+    .content{
+        font-size: 14px;
+    }
+    .link{
+        padding: 0.5rem;
+    }
+    .link-primary{
+        font-size: 12px;
+    }
+    .link-secondary{
+        font-size: 12px;
+    }
+    .languages{
+        gap: 8px;
+    }
+    .footer{
+        padding: 1rem 0.5rem;
+    }
+    .footer .footer-header{
+        font-size: 16px;
+    }
+    .center{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 455px){
+    .languages{
+        gap: 6px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .container{
+        padding:1rem 1rem;
+    }
+    .languages{
+        gap: 5px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .languages{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width:415px){
+    .hero .hero-img{
+        max-width: 285px;
+        display: block;
+        margin:auto;
+    }
+    .link-primary, .link-secondary{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:390px){
+    .hero .hero-img{
+        max-width: 275px;
+        display: block;
+        margin:auto;
+    }
+    .flex-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
