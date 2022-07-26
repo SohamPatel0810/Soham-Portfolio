@@ -184,6 +184,10 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+.footer .blogs{
+    display: flex;
+    margin-top: auto;
+}
 .icon-link{
     text-decoration: none;
 }
